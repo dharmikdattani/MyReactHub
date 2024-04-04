@@ -1,0 +1,55 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-family: system-ui;
+    color: black;
+    font-weight: 600;
+}
+
+.input{
+    height: 48px;
+    width: 350px;
+    font-size: x-large;
+    border-radius: 8px;
+    border: 2px solid #80807e;
+    padding-left: 3px;
+    text-align: center;
+    font-family: system-ui;
+}
+    
+.input placeholder{
+font-family:sans-serif;
+}
+
+.loginbtn{
+    border: none;
+    background: cornflowerblue;
+    color: white;
+    padding: 12px 12px;
+    margin: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.heading,h1{
+    font-family: system-ui;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom:-3px
+}
